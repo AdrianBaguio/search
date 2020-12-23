@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form action="https://google.com/search" id="advance_search">
+        <div class="row">
+          <div class="col-12">
+            <div class="float-right">
+              <a href="image_search.html">Image Search</a>
+              <a href="advance_search.html">Advance Search</a>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="all-these-words" class="col-form-label"
+              >all these words:</label
+            >
+          </div>
+          <div class="col-7">
+            <input type="text" class="form-control" name="as_q" id="all" />
+          </div>
+          <div class="col-3 d-none d-lg-block d-xl-block">
+            Type the important words: tri-colour rat terrier
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="this-exact-word" class="col-form-label"
+              >this exact word or phrase:</label
+            >
+          </div>
+          <div class="col-7">
+            <input type="text" class="form-control" name="as_epq" id="phrase" />
+          </div>
+          <div class="col-3 d-none d-lg-block d-xl-block">
+            Put exact words in quotes: "rat terrier"
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="any-of-these-words" class="col-form-label"
+              >any of these words:</label
+            >
+          </div>
+
+          <div class="col-7">
+            <input type="text" class="form-control" name="as_oq" id="any" />
+          </div>
+          <div class="col-3 d-none d-lg-block d-xl-block">
+            Type OR between all the words you want: miniature OR standard
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col">
+            <label for="none-of-these-words" class="col-form-label"
+              >none of these words:</label
+            >
+          </div>
+          <div class="col-7">
+            <input type="text" class="form-control" name="as_eq" id="none" />
+          </div>
+          <div class="col-3 d-none d-lg-block d-xl-block">
+            Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col"></div>
+          <div class="col-7">
+            <div class="float-right">
+              <button class="btn btn-primary" type="submit">
+                Advance Search
+              </button>
+            </div>
+          </div>
+          <div class="col-3 d-none d-lg-block d-xl-block"></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

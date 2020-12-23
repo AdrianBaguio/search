@@ -1,0 +1,70 @@
+#image_search #search,
+#google_search #search {
+  padding: 9px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 22px;
+  width: 100%;
+}
+
+#google_search #search:focus {
+  outline: none;
+}
+
+.container {
+  position: relative;
+}
+
+.child {
+  text-align: center;
+}
+
+.google-search {
+  margin-top: 10px;
+}
+
+.google-search input {
+  padding: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+#google-search-input {
+  background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#google-search-input:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+  background-color: #f8f9fa;
+  border: 2px solid #dadce0;
+  color: #202124;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

@@ -11,6 +11,16 @@
   width: 100%;
 }
 
+a {
+  color: text-dark;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
 #google_search #search:focus {
   outline: none;
 }
